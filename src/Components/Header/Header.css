@@ -1,0 +1,18 @@
+.Header{
+    @apply flex justify-between p-0.5 bg-primary-black items-center p-7
+}
+.name{
+    @apply text-3xl text-primary-white w-2/4
+}
+.nav{
+    @apply w-2/4 flex justify-end mr-7 bg-transparent
+}
+.ul{
+    @apply flex justify-center bg-transparent
+}
+.li{
+    @apply text-primary-white ml-7 text-lg bg-transparent
+}
+.activeLink{
+    @apply focus:text-primary-green active:text-primary-green shadow-xl focus:shadow-primary-green bg-transparent
+}
