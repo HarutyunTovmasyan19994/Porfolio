@@ -16,3 +16,6 @@
 .activeLink{
     @apply focus:text-primary-green active:text-primary-green shadow-xl focus:shadow-primary-green bg-transparent flex justify-center items-center
 }
+/*.navLinks{*/
+/*    @apply lg:hidden*/
+/*}*/
