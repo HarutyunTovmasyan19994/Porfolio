@@ -14,8 +14,16 @@
     @apply text-primary-white ml-7 text-lg bg-transparent
 }
 .activeLink{
-    @apply focus:text-primary-green active:text-primary-green shadow-xl focus:shadow-primary-green bg-transparent flex justify-center items-center
+    @apply focus:text-primary-green active:text-primary-green hover:text-primary-green shadow-xl focus:shadow-primary-green bg-transparent flex justify-center items-center
 }
-/*.navLinks{*/
-/*    @apply lg:hidden*/
-/*}*/
+.hamburger{
+    @apply hidden
+}
+@media(max-width:1000px){
+    .navLinks{
+        @apply hidden
+    }
+    .hamburger{
+        @apply block
+    }
+}

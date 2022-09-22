@@ -1,0 +1,29 @@
+.myWorkCommon{
+    @apply w-full h-full bg-primary-black flex flex-col items-center
+}
+.myWork{
+    @apply w-full flex justify-center items-center
+}
+.workTodo{
+    @apply w-1/2 flex justify-center items-center p-6
+}
+.workDebt{
+    @apply w-1/2 flex justify-center items-center p-6
+}
+.imgHref{
+    @apply w-3/4 p-4
+}
+.img{
+    @apply w-full h-full
+}
+@media(max-width:1000px){
+    .myWork{
+        @apply w-full flex flex-wrap
+    }
+    .workTodo{
+        @apply w-full flex justify-center items-center p-6
+    }
+    .workDebt{
+        @apply w-full flex justify-center items-center p-6
+    }
+}

@@ -1,0 +1,29 @@
+.educationCommon{
+    @apply w-full h-full bg-primary-black p-6
+}
+.education{
+    @apply text-primary-white w-full flex justify-center items-center p-5
+}
+.Edu{
+    @apply text-primary-white w-full flex justify-center items-center p-6
+}
+.educationText{
+    @apply text-5xl italic font-medium
+}
+.lori{
+    @apply w-1/2 flex flex-col items-center border-2 rounded-lg border-gray-700 m-1 p-6
+}
+.anau{
+    @apply w-1/2 flex flex-col items-center border-2 rounded-lg border-gray-700 m-1 p-6
+}
+.month{
+    @apply text-primary-white text-2xl italic font-mono font-light
+}
+.collage{
+    @apply text-primary-white text-3xl italic text-center mt-1
+}
+@media(max-width:1000px){
+   .education{
+       @apply flex flex-wrap
+   }
+}

@@ -1,0 +1,65 @@
+.aboutCommon{
+    @apply w-full h-full bg-primary-black pb-16
+}
+.aboutMe{
+    @apply flex justify-center items-center text-4xl uppercase font-medium italic font-mono tracking-widest
+}
+.aboutText{
+    @apply text-primary-white m-6
+}
+.mySki{
+    @apply w-full flex justify-center items-center
+}
+.ski{
+    @apply w-1/2 text-primary-white flex justify-center items-center
+}
+.MeAbout{
+    @apply w-1/2 text-primary-white flex justify-center items-center ml-5 mr-3
+}
+.namePost{
+    @apply w-1/2 m-2 flex justify-center items-center
+}
+.ageLanguage{
+    @apply w-1/2 m-2 flex justify-center items-center
+}
+.NameMe{
+    @apply text-2xl italic  font-mono
+}
+.post{
+    @apply text-2xl italic  font-mono
+}
+.age{
+    @apply text-2xl italic  font-mono
+}
+.language{
+    @apply text-2xl italic  font-mono
+}
+.ks{
+    @apply w-10/12 m-2
+}
+.sk{
+    @apply w-full
+}
+.HTML{
+    @apply flex justify-between items-center w-full
+}
+.sp{
+    @apply h-1 w-full bg-primary-green rounded-full
+}
+.ps{
+    @apply w-10/12 h-1 bg-red-900 rounded-full
+}
+.js{
+    @apply w-2/4 h-1 bg-red-900 rounded-full
+}
+.rs{
+    @apply w-3/5 h-1 bg-red-900 rounded-full
+}
+.ts{
+    @apply w-2/5 h-1 bg-red-900 rounded-full
+}
+@media(max-width:1000px){
+    .mySki{
+        @apply w-full flex flex-wrap
+    }
+}

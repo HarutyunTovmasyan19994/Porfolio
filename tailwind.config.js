@@ -9,6 +9,9 @@ module.exports = {
           "white":"#F2F3F4",
           "green":"#145A32",
         }
+      },
+      screens:{
+        "tablet":"640px"
       }
     },
   },
